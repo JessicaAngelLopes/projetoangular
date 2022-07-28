@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="login.component.css">
+
+<body id="b1">
+    <img id="imgl" src="assets/imagem/plano_fundo.jpg">
+
+    
+
+    <div id="id=" container3>
+        <div id="login">
+            <form class="card">
+                <div class="card-header">
+
+                    <h2>LOGIN MEGA GAMES</h2>
+
+                </div>
+                <div class="card-content">
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+
+                            <label>Usuário</label>
+                            <input type="text" class="form-control" matInput [(ngModel)]="login.usuario" name="usuario">
+
+                        </div>
+                        <div class="form-group">
+                            <label>Senha</label>
+                            <input type="password" class="form-control" matInput [(ngModel)]="login.senha" name="senha">
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12 d-flex justify-content-center" style="margin:0 auto;">
+                                <hr class="mb-4">
+                                <div class="col-12 col-md-4 p-0">
+                                    <button class="btn btn-cadastrar" (click)="createLogin()"
+                                        color="warn">Cadastrar</button>
+                                </div>
+                                <div class="col-12 col-md-3 p-0">
+                                    <button class="btn btn-cadastrar" (click)="entrarLogin()"
+                                        color="warn">Entrar</button>
+                                </div>
+                                <div class="col-12 col-md-5 p-0">
+                                    <button class="btn btn-cadastrar" (click)="resetLogin()" color="warn">Esqueci a
+                                        Senha</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>

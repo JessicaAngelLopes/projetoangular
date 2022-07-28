@@ -1,0 +1,34 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "usuario": "Jessica Lopes",
+      "senha": "admin"
+    },
+    {
+      "usuario": "José Henrrique",
+      "senha": "123456",
+      "id": 2
+    },
+    {
+      "usuario": "Luiz Claudio",
+      "senha": "lua217",
+      "id": 5
+    },
+    {
+      "usuario": "André Nascimento",
+      "senha": "123456",
+      "id": 6
+    },
+    {
+      "usuario": "Paola Nogueira",
+      "senha": "paola78",
+      "id": 7
+    },
+    {
+      "usuario": "Fatima Andrade",
+      "senha": "fat123456",
+      "id": 8
+    }
+  ]
+}

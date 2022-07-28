@@ -1,0 +1,167 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+
+.mat-toolbar-row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#container1{
+    
+    width:250%;
+    max-width: 1350px;
+    height:auto;
+    margin:auto;
+    font-family: Arial,
+  
+   
+
+}
+
+    
+
+#banner{
+    width:250%;
+    max-width: 1350px;
+    height:100px;
+    margin-left:0px;
+    background:black;
+   
+}
+
+@media (min-width: 100px) and (max-width: 1024px) {
+    .banner{}
+    }
+
+#icone {
+	cursor: pointer;
+	padding:15px;
+	position: absolute;
+	
+}
+
+#check{
+	display: none;
+	background-color: #f00;
+    
+}
+
+.barra{
+	background-color: #333;
+	height: 10px;
+	width: 300px;
+	position: absolute;
+    margin-top:-13px;
+	left: -300px;
+	transition: all .2s linear;
+   
+    
+    
+   
+}
+
+.barra .link{
+	list-style: none;
+	background-color: #494950;
+    
+
+   
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top:0px;
+}
+nav a{
+	text-decoration: none;
+}
+
+.link{
+	color: #f4f4f9;
+	font-family: 'Arial';
+	font-size: 12pt;
+	padding: 20px;
+	border-bottom: 2px solid #222;
+	transition:  all .2s linear;
+	opacity: 0;
+	margin-top:50px;
+}
+.link:hover{
+	background-color: #050542;
+}
+
+#check:checked ~ .barra nav a .link{
+		opacity: 1;
+		margin-top: 0;
+		transition-delay: .2s;
+}
+#check:checked ~ .barra{
+		transform: translateX(300px);
+
+}
+
+
+#contato{
+    width:250%;
+    max-width: 1350px;
+    height:40px;
+    margin-left:0px ;
+    margin-top:90px ;
+    background:rgb(2, 68, 2);
+    font-size:10%;
+    z-index: -1;
+  
+ 
+    
+}
+
+
+    
+
+
+
+#email{
+    width:35px;
+    height:35px;
+}
+
+#fone{
+    width:25px;
+    height:25px;
+}
+
+
+#logo{
+    width:100px;
+    height:60px;
+    margin-top: -2px;
+}
+
+#menu{
+    margin-top:25px;
+    width:80px;
+    margin-left:-25px;
+  
+ 
+}
+
+#empresa{
+  margin-top: -2px;
+  text-align:center ;
+  font-size:50px;
+}
+
+#loguin{
+    margin-top:-120px ;
+    margin-left:1170px;
+}
+
+#sacola{
+    margin-top:-175px;
+    margin-left:1255px ;
+}

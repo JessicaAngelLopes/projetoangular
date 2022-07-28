@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+
+.mat-toolbar-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#rodape{
+    width:280%;
+    max-width:1350px;
+    height:80px;
+    margin-left:0px ;
+    margin-top:-80px;
+    background:black;
+    text-align: center;
+    font-size:15px;
+    position: absolute;
+    
+    
+
+}
+
+#fc{
+    width:20px;
+    height:20px;
+    margin-left:2px;
+    margin-top:10px;
+}
+
+#yo{
+    width:20px;
+    height:20px;
+    margin-left:120px;
+    margin-top:10px;
+}
+
+#inst{
+    width:20px;
+    height:20px;
+    margin-left:110px;
+    margin-top:10px;
+}
+
+#end{
+    margin-top:15px;
+ 
+}
